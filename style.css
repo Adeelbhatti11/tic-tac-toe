@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(44, 155, 124, 0.547);
+    
+    
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 55vw;
+    
+}
+.game{
+    margin: 0;
+    width: 32vw;
+    height: 20vw;
+    justify-content: center;
+    align-items: center;
+    display: wrap;
+}
+.box{
+    border: none;
+    font-size: 1.8rem;
+   
+  width: 10vw;
+  height: 10vw;
+  border-radius: 10px;
+  background-color: rgba(238, 241, 170, 0.644);
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgba(247, 247, 54, 0.547);
+}
+.box:disabled{
+    background-color: rgba(238, 241, 170, 0.644) ;
+    color: black;
+}
+#reset{
+    margin: 10px;
+    font-size: 4vw;
+  width: 15vw;
+  height: 5vw;
+  background-color: rgba(84, 153, 153, 0.585);
+  border-radius: 10px;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: rgba(247, 247, 54, 0.547);
+}
+.hide{
+    display: none;
+}
